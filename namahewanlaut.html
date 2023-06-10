@@ -232,3 +232,51 @@
 <div class="clearfix"></div>
 </body>
 </html>
+
+
+
+<html>
+  <head>
+      <style>
+          .dropdown {
+              position: relative;
+              display: inline-block;
+          }
+          
+          .dropdown-content {
+              display: none;
+              position: absolute;
+              background-color: #000000;
+              min-width: 160px;
+              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+              z-index: 1;
+          }
+          
+          .dropdown:hover .dropdown-content {
+              display: block;
+          }
+      </style>
+  </head>
+  <body>
+      <div class="dropdown" style="position: fixed; top: 10px; left: 10px;">
+          <button class="dropbtn">Kelompok...</button>
+          <div class="dropdown-content">
+              <a href="#">Anggota</a>
+              <div class="member-list">
+                  <ul>
+                      <li>1.Fikri</li>
+                      <li>2.Nafis</li>
+                      <li>3.Rifki</li>
+                      <li>Member 4</li>
+                      <li>Member 5</li>
+                      <li>Member 6</li>
+                      <li>Member 7</li>
+                      <li>Member 8</li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </body>
+  </html>
+
+
